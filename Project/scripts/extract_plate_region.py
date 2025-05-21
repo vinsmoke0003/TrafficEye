@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
 
+# i am the change here
+
 image_path = "C:/Users/seenu/OneDrive/Desktop/programming/Python/project/data/sample2.webp"
 image = cv2.imread(image_path)
 if image is None:
