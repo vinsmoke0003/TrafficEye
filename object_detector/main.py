@@ -3,7 +3,7 @@ import cv2
 
 model = YOLO("yolov8n.pt")  # Load a model
 
-video_path = "C:/Users/seenu/OneDrive/Desktop/programming/Python/object_detector/test1.mp4"  # Path to your video file
+video_path = "C:/Users/seenu/OneDrive/Desktop/programming/Python/object_detector/test.mp4"  # Path to your video file
 
 cap = cv2.VideoCapture(video_path)  # Open the video file
 

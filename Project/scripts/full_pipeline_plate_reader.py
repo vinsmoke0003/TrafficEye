@@ -43,7 +43,7 @@ def save_image(img, path):
     print(f"Saved: {path}")
 
 if __name__ == "__main__":
-    input_path = Path("C:/Users/seenu/OneDrive/Desktop/programming/Python/project/data/sample.jpg")
+    input_path = Path("C:/Users/seenu/OneDrive/Desktop/programming/Python/project/data/sample2.webp")
     output_dir = Path("C:/Users/seenu/OneDrive/Desktop/programming/Python/project/outputs")
     output_dir.mkdir(parents=True, exist_ok=True)
 

@@ -29,7 +29,7 @@ def save_processed_image(img, output_path):
 
 if __name__ == "__main__":
     reader = initialize_easyocr()
-    input_path = "C:/Users/seenu/OneDrive/Desktop/programming/Python/project/data/sample.jpg"
+    input_path = "C:/Users/seenu/OneDrive/Desktop/programming/Python/project/data/sample2.webp"
     
     if not Path(input_path).exists():
         raise FileNotFoundError(f"Image not found at: {input_path}")
